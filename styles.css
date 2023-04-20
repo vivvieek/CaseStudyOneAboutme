@@ -1,0 +1,184 @@
+/* find what this does ? */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* wallpapers */
+.home{
+    background-image: url(Homepage.jpg);
+    background-size:cover;
+}
+.about{
+    background-image: url(aboutpicture.jpg);
+    background-size: cover;
+}
+.experience{
+    background-image: url(experiencepic.jpg);
+    background-size: cover;
+}
+.education{
+    background-image: url(education.jpg);
+    background-size: cover;
+}
+.skills{
+    background-image: url(skill.jpg);
+    background-size: cover;
+}
+.contact{
+    background-image: url(contact.jpg);
+    background-size: cover;
+}
+
+/* headers for all pages*/
+header{
+    background-color: grey;
+    height: 85px;
+}
+
+/* logo for all pages*/
+#logo{
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-left: 50px;
+    margin-top:2px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;   
+}
+
+/* names of pages next to logo for all pages*/
+.name{
+float: left;
+margin-left: -20px;;
+padding:29px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+/* navigations for all pages*/
+nav{
+    float: right;
+    padding-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+nav a{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+nav a:hover{
+    color: beige;
+}
+
+/* homepage */
+button{
+    float: right;
+    margin-top: 190px;
+    background-color: transparent;
+    margin-right: 568px;
+    padding: 10px;
+    border-radius: 20px;
+}
+button a{
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+}
+
+/* Aboutme page*/
+.aboutbody{
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: large;
+    font-family: cursive;
+}
+
+/* Experience page*/
+.experiencedate{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.exp{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+/* education */
+.educationdet{
+    float: left;
+    margin-top: 110px;
+    margin-left: 20px;
+    border-radius: 50px;
+    color: black;
+}
+.course{
+    font-weight: 800;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.institute{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.year{
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* skills */
+.containerskill{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.box{
+    border: 3px solid rgb(243, 44, 44);
+    border-style: dotted;
+    float: left;
+    width: 20em;
+    height: 14em;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: transparent;
+    color: rgb(253, 96, 96);
+}
+
+/* contact */
+.contactdetails{
+    float: right;
+    margin-right: 450px;
+    margin-top: 100px;
+    padding: 50px;
+    border: 10px solid rgb(61, 49, 49);
+    text-align: center;
+}
+.facebook{
+    height: 40px;
+    width: 60px;
+}
+.instagram{
+    height: 35px;
+    width: 35px;
+}
+.linkedin{
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+/* footers for all pages*/
+footer{
+    height: 1.5em;
+    margin-top: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+}
